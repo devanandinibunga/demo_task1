@@ -1,0 +1,67 @@
+.digital-wallet-container{
+    display: flex;
+    flex-direction: row;
+    // width: auto;
+    // overflow-x: scroll;
+}
+.each-digital-wallet{
+    // width: 80%;
+    width: 300px;
+    height: 250px;
+    margin: 1%;
+    border: 1px solid grey;
+}
+.digital-wallet-top-container{
+    display: flex;
+    justify-content: space-between;
+}
+.each-wallet-logo-name-container{
+    display: flex;
+    margin:5% 2% 10% 0px;
+    // margin-top:5%;
+
+}
+.each-wallet-logo{
+    margin-right:0px 5% 0px 0px;
+    // margin-top: 0px;
+   width: 70px;
+   height: 70px;
+   border-radius: 50%;
+}
+.each-wallet-name{
+    margin:20% 0px 0px 5%;
+}
+.each-wallet-price-container{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    justify-content: space-around;
+    margin:0px 2% 2% 2%;
+
+}
+.each-wallet-pricein-per-red{
+    background-color: rgb(241, 184, 184);
+    color: red;
+    border-radius: 13px;
+    // width:70px;
+    // height: 25px;
+    padding: 2px;
+    display: flex;
+    justify-content: space-around;
+}
+.each-wallet-pricein-per-green{
+    background-color: rgb(165, 241, 165);
+    color: green;
+    border-radius: 13px;
+    padding: 2px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.each-wallet-icon{
+    margin-top:5%;
+}
+
+.digital-wallet-cryptorate{
+    text-align: left;
+}

@@ -1,0 +1,45 @@
+
+.wallet-button-container{
+    display: flex;
+    justify-content: space-around;
+}
+.cost-currency-container{
+    display: flex;
+}
+.cost{
+    width: 95%;
+    // border:none;
+    // border-radius: 0;
+    // border-bottom: 1px solid black;
+}
+.cost-input{
+    width: 95%;
+    // border: none;
+}
+.crypto-rate-number{
+    width: 95%;
+}
+.currency{
+    width: 40%;
+    // border:none;
+   
+}
+.currency-select{
+    width: 40%;
+    // border:none;
+    // border-radius: 0;
+    // border-bottom: 1px solid black;
+}
+.crypto-rate-currency{
+    display: flex;
+}
+.crypto-currency{
+    width: 30%;
+}
+.crypto-rate{
+    width: 80%;
+    // margin-right: 3%;
+}
+.in-percentage{
+    width: 100%;
+}
